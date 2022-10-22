@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Aboreto;
+  src: url(../public/assets/fonts/Aboreto.ttf);
+}
+
+::selection {
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  font-family: Aboreto;
+}
+
+button {
+  cursor: pointer;
+  font-family: Aboreto;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Aboreto;
+}
+
+header,
+main,
+footer {
+  padding: 10px 15px;
+}
